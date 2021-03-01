@@ -1,0 +1,286 @@
+@media only screen and (max-width: 415px){
+    .page1{
+        height: 100vh;
+        width: 100vw;
+        background: url(./mobile/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header{
+        padding: 0;
+        margin: 0;
+        height: 4vh;
+    }
+    .logo{
+        padding: 0;
+        margin: 0;
+        padding-left: 7vw;
+        padding-top: 2vh;
+        font-size: 8vw;
+    }
+    h2{
+        display: block;
+        font-size: 10vw;
+        font-family: 'Pacifico', cursive;
+        margin-top: 1vh;
+        padding-left: 5vw;
+        margin-bottom: 20vh;
+    }
+    .navi{
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        right: 0px;
+        left: 0;
+        z-index: 10;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: black;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        display: none;
+        box-sizing: border-box;
+        transition: top 1s ease;
+        position: fixed;
+    }
+    li{
+        font-size: 11vw;
+        padding-left: 4vw;
+        padding-bottom: 1vh;
+    }
+    .openmenu{
+        display: block;
+        z-index: 12;
+        margin-left: 33vw;
+        margin-top: 4vh;
+    }
+    .closemenu{
+        padding-left: 86vw;
+    }
+    .info{
+        margin: 0;
+        margin-top: 31vh;
+        margin-left: 7vw;
+        width: 86vw;
+        height: 34vh;
+        font-size: calc(3px + 11vw);
+    }
+    .middle{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 80vw;
+        height: 100vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .manwithvr{
+        background: url(./mobile/image-interactive.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 39vh;
+        margin-top: 12vh;
+        
+    }
+    .vrinfo{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 8vw;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 80vw;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+        width: 80vw;
+        height: 30vh;
+        font-size: 5vw;
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .bottom{
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+    }
+    .top-line{
+        width: 100vw;
+    }
+    .crea{
+        width: 100vw;
+        font-size: 10vw;
+        text-align: center;
+    }
+    .box{
+        display: none;
+    }
+    .cards{
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+    .card1{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: 20vh;
+        background-size: cover;
+        background-image: url(./mobile/image-deep-earth.jpg);
+        margin-top: 5vh;
+    }
+    .card2{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: 20vh;
+        background-size: cover;
+        background-image: url(./mobile/image-night-arcade.jpg);
+        margin-top: 5vh;
+    }
+    .card3{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: 20vh;
+        background-size: cover;
+        background-image: url(./mobile/image-soccer-team.jpg);
+        margin-top: 5vh;
+    }
+    .card4{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: 20vh;
+        background-size: cover;
+        background-image: url(./mobile/image-grid.jpg);
+        margin-top: 5vh;
+    }
+    .card5{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: 20vh;
+        background-size: cover;
+        background-image: url(./mobile/image-from-above.jpg);
+        margin-top: 5vh;
+    }
+    .card6{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: 20vh;
+        background-size: cover;
+        background-image: url(./mobile/image-pocket-borealis.jpg);
+        margin-top: 5vh;
+    }
+    .card7{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: 20vh;
+        background-size: cover;
+        background-image: url(./mobile/image-curiosity.jpg);
+        margin-top: 5vh;
+    }
+    .card8{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: 20vh;
+        background-size: cover;
+        background-image: url(./mobile/image-fisheye.jpg);
+        margin-top: 5vh;
+    }
+    .names{
+        margin-top: 9vh;
+        font-size: 7vw;
+        margin-left: 6vw;
+    }
+    .box-mobile{
+        display: block;
+        height: 7vh;
+        width: 50vw;
+        font-size: 6vw;
+        color: black;
+        border: 1px solid black;
+        margin-left: 25vw;
+        text-align: center;
+        margin-top: 6vh;
+        padding-top: calc(10px + 1vh);
+        letter-spacing: 1vw;
+    }
+    .box-mobile:hover{
+        background-color: black;
+        color: white;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        margin-top: 10vh;
+        padding: 0%;
+        box-sizing: border-box;
+        height: 70vh;
+        width: 100vw;
+    } 
+    .foot-top{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 12vh;
+        width: 100vw;
+    }
+    .foot-logo{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: calc(2px + 7vw);
+        padding-top: 2vh
+    }
+    .icons{
+        margin: 0;
+        padding: 0;
+        display: none;
+        
+    }
+    .foot-end{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-navi{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-navi>li{
+        margin: 0;
+        padding: 0;
+        font-size: 7vw;
+        text-align: center;
+        padding-top: 2vh;
+    }
+    .icons-mobile{
+        margin: 0;
+        padding: 0;
+        display: block;
+        padding-left: 33vw;
+        padding-top: 7vh;
+    }
+    .copy-right{
+        margin: 0;
+        padding: 0;
+        font-size: calc(2px + 4vw);
+        text-align: center;
+        padding-top: 5vh;
+    }
+}

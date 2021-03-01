@@ -1,0 +1,323 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.page1{
+    background-image: url(./images/image-hero.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.openmenu{
+    display: none;
+}
+.closemenu{
+    display: none;
+}
+.header{
+    width: 100vw;
+    height: 27vh;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-top: 8vh;
+    align-content: space-between;
+}
+h2{
+    display: none;
+}
+.logo{
+    width: 46vw;
+    font-size: calc(12px + 2vw);
+    margin-top: calc(-2px + -1vh);
+    padding-left: 12vw;
+    font-family: 'Pacifico', cursive;
+}
+.navi{
+    display: flex;
+    list-style: none;
+    padding-left: 3vw;
+}
+li{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: calc(3px + 1vw);
+}
+.info{
+    margin-top: 8vh;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    font-size: 5vw;
+    height: 42vh;
+    margin-left: 11vw;
+    border: 3px solid white;
+    width: 46vw;
+    box-sizing: border-box;
+}
+li:hover{
+    color: rgb(203, 123, 240); 
+    cursor: pointer;
+    transition: .3s;
+}
+.middle{
+    height: 100vh;
+    width: 100vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    box-sizing: border-box;
+    display: flex;
+}
+.manwithvr{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./images/image-interactive.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+.vrinfo{
+    box-sizing: border-box;
+    width: 40vw;
+    height: 50vh;
+    color: black;
+    z-index: 2;
+    margin-left: -22vw;
+    background-color: white;
+    margin-top: 14vh;
+    padding-left: 3vw;
+    padding-top: 5vh;
+}
+h1{
+    font-weight: lighter;
+    font-size: 3vw;
+    text-align: left;
+    padding-right: 12vw;
+    color: black;
+}
+p{
+    margin-top: -4vh;
+    font-size: calc(5px + 1vw);
+}
+.bottom{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    box-sizing: border-box;
+    height: auto;
+}
+.top-line{
+    display: flex;
+    box-sizing: border-box;
+    width: 70vw;
+    height: 8vh;
+    justify-content: space-between;
+}
+.crea{
+    font-size: calc(5px + 3vw);
+    color: black;
+}
+.box{
+    width: 7vw;
+    padding-left: 2vw;
+    height: 4vh;
+    color: black;
+    padding-top: 1vh;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: calc(3px + 1vw);
+    margin-top: 11px;
+}
+.box:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 11vh;
+}
+
+.card1{
+    height: calc(-2px + 15vh);
+    width: calc(-8px + 14.25vw);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(./images/image-deep-earth.jpg);
+    font-size: calc(4px + 2vw);
+    padding-top: 45vh;
+    padding-left: 3vw;
+    opacity: 0.9;
+}
+.card1:hover{
+    cursor: pointer;
+}
+.card2{
+    height: calc(-2px + 15vh);
+    width: calc(-8px + 14.25vw);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(./images/image-night-arcade.jpg);
+    margin-left: calc(-6px + 1vw);
+    margin-bottom: calc(-6px + 1vw);
+    font-size: calc(4px + 2vw);
+    padding-top: 45vh;
+    padding-left: 3vw;
+    opacity: 0.9;
+}
+.card2:hover{
+    cursor: pointer;
+}
+.card3{
+    height: calc(-2px + 15vh);
+    width: calc(-8px + 14.25vw);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(./images/image-soccer-team.jpg);
+    margin-left: calc(-5px + 1vw);
+    margin-bottom: calc(-6px + 1vw);
+    font-size: calc(4px + 2vw);
+    padding-top: 45vh;
+    padding-left: 3vw;
+    opacity: 0.9;
+}
+.card3:hover{
+    cursor: pointer;
+}
+.card4{
+    height: calc(-2px + 15vh);
+    width: calc(-8px + 14.25vw);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(./images/image-grid.jpg);
+    margin-left: calc(-5px + 1vw);
+    margin-bottom: calc(-6px + 1vw);
+    font-size: calc(4px + 2vw);
+    padding-top: 45vh;
+    opacity: 0.9;
+    padding-left: 3vw;
+}
+.card4:hover{
+    cursor: pointer;
+}
+.card5{
+    height: calc(-2px + 15vh);
+    width: calc(-8px + 14.25vw);
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(./images/image-from-above.jpg);
+    font-size: calc(4px + 2vw);
+    padding-top: 45vh;
+    padding-left: 3vw;
+    opacity: 0.9;
+}
+.card5:hover{
+    cursor: pointer;
+}
+.card6{
+    height: calc(-2px + 15vh);
+    width: calc(-8px + 14.25vw);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(./images/image-pocket-borealis.jpg);
+    margin-left: calc(-6px + 1vw);
+    font-size: calc(4px + 2vw);
+    padding-top: 45vh;
+    padding-left: 3vw;
+    opacity: 0.9;
+}
+.card6:hover{
+    cursor: pointer;
+}
+.card7{
+    height: calc(-2px + 15vh);
+    width: calc(-8px + 14.25vw);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(./images/image-curiosity.jpg);
+    margin-left: calc(-5px + 1vw);
+    font-size: calc(4px + 2vw);
+    padding-top: 45vh;
+    padding-left: 3vw;
+    opacity: 0.9;
+}
+.card7:hover{
+    cursor: pointer;
+}
+.card8{
+    height: calc(-2px + 15vh);
+    width: calc(-8px + 14.25vw);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(./images/image-fisheye.jpg);
+    margin-left: calc(-5px + 1vw);
+    font-size: calc(4px + 2vw);
+    padding-top: 45vh;
+    padding-left: 3vw;
+    opacity: 0.9;
+}
+.card8:hover{
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    height: 21vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    margin-top: 25vh;
+}
+.foot-top{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 4vh;
+    width: 70vw;
+}
+.foot-logo{
+    font-size: 2vw;
+    font-family: 'Pacifico', cursive;
+}
+.foot-navi{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-left: calc(4px + -4vw);
+    padding-top: 1vh;
+}
+.icons{
+    margin-top: calc(2px + 1vh);
+    padding-right: 2vw;
+}
+i{
+    padding-left: 1vw;
+}
+.foot-end{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+.copy-right{
+    font-size: calc(4px + 1vw);
+    padding-top: 4px;
+    padding-right: 1vw;
+}
+.box-mobile{
+    display: none;
+}
+.icons-mobile{
+    display: none;
+}
